@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: whitesmoke;
+}
+.section-4 h4{
+    margin: 10px;
+}
+ .section-4 .pecent-users .div{
+     width: 90%;
+     padding: 1px;
+     margin-left: 30px;
+     align-items: center;
+     background-color:white;
+     border: 0.2px solid whitesmoke;
+     z-index: -1;
+ }
+
+ .section-4 h4{
+    margin-top: 40px;
+    margin-left: 30px;
+    vertical-align: middle;
+ }
+
+ .section-4 .pecent-users .div img{
+     width: 4%;
+     margin-bottom: 1px;
+     margin-top: 27px;
+     margin-left: 7px;
+ }
+ .section-4 .pecent-users .div h5{
+     margin-left: 65px;
+     /* padding-bottom: 20px; */
+     text-align: justify;
+ }
+ .section-4 .Recent-Comments {
+    display: grid;
+    padding-top: 20px;
+    margin-left: 20px;    
+ }
+ .Recent-Comments{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 2fr));
+    margin-top: 10px;
+}
+ .section-4 .Recent-Comments h4{
+     margin: 10px;
+ }
+ .section-4 .Recent-Comments .small{
+     opacity: 50%;
+     display: inline;
+}
+.section-4 .Recent-Comments .John {
+    margin: 20px;
+    display: inline;
+    margin-left: 0%;
+}
+.section-4 .Recent-Comments .John img{
+    width: 10%;
+    margin-left: 20px; 
+}
+
+.section-4 .Recent-Comments .Bo {
+    margin: 20px;
+    margin-left: 0;
+}
+.section-4 .Recent-Comments .Bo img {
+    width: 10%;
+    margin-left: 20px;
+}
